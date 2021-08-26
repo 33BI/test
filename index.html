@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Kontaktforma | Tests</title>
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+	<link rel="stylesheet" href="css/base.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+</head>
+
+<body>
+	<div class="page-wrapper">
+	  <h1 class="heading">Kontaktforma</h1>
+		<div class="errors"></div>
+		<form action="index.html" method="post">
+			<div class="row">
+				<div class="field required-field">
+					<label class="required" for="full-name">Vārds, Uzvārds:</label>
+					<input type="text" name="full_name" value="" id="full-name" />
+					<div class="clearfloat"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="field required-field">
+					<label class="required" for="number">Telefona numurs: </label>
+					<input type="text" name="number" value="" id="number" />
+					<div class="clearfloat"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="field">
+					<label for="address">Adrese: </label>
+					<input type="text" name="address" value="" id="address" />
+					<div class="clearfloat"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="field required-field">
+					<label class="required" for="message">Ziņojums: </label>
+					<textarea name="message" value="" id="message"></textarea>
+					<div class="clearfloat"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<button class="large submit" type="submit">
+					Sūtīt &rarr;
+				</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

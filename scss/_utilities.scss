@@ -1,0 +1,16 @@
+.page-wrapper {
+    border: 1px solid $color-silver;
+    width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -250px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.heading {
+    font-size: 24px;
+    text-align: center;
+}
+
